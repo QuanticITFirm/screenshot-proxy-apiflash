@@ -5,7 +5,7 @@ export default async function handler(req, res) {
     return res.status(400).send("Invalid URL");
   }
 
-  const accessKey = "a2f3914e75fd4f90ac3f164631bcf9a8"; // Keep this safe later
+  const accessKey = "a2f3914e75fd4f90ac3f164631bcf9a8";
 
   const deviceSettings = {
     desktop: {
